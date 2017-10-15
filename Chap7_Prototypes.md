@@ -13,6 +13,22 @@ To include inherited properties in the finding:
  
 if(prop in object) { } // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in
 
+Note: One may be tempted to use typeof and [ ] property accessor as the following code which doesn't work ...
+
+var loan = { amount: 150 };
+
+loan.installment = undefined;
+
+if("installment" in loan) // correct
+{
+    // will execute
+}
+
+if(typeof loan["installment"] !== "undefined") // incorrect
+{
+    // will not execute
+}
+
 
 Why is a prototype chain important for working with
 objects in JavaScript?
