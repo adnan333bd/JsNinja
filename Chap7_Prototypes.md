@@ -13,3 +13,9 @@ if(Object.prototype.hasOwnProperty.call(object, "prop_name"))
 To include inherited properties in the finding: 
  
 if(prop in object) { } // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in
+
+
+Why is a prototype chain important for working with
+objects in JavaScript?
+
+------------------------------------------------------------
