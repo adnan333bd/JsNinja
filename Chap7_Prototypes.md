@@ -6,8 +6,9 @@ property?
 For own property : 
 
 if(Object.prototype.hasOwnProperty.call(object, "prop_name")) 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
 { }
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+
 
 To include inherited properties in the finding: 
  
